@@ -1,0 +1,18 @@
+GET http://localhost:3000/subscribers/
+
+###
+GET http://localhost:3000/subscribers/6412c03d4bd00374348a1d29
+
+###
+DELETE http://localhost:3000/subscribers/6412c03d4bd00374348a1d29
+
+###
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name": "ali",
+    "subscribedToChannel": "zero"
+}
+
+###
